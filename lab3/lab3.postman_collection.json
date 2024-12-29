@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "32e46e24-c100-413e-936c-851e3b283572",
+		"name": "ECE358-Lab3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39664745"
+	},
+	"item": [
+		{
+			"name": "Generic",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8001/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HelloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8001/HelloWorl.html",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"HelloWorl.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generic",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8001",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HelloWorld",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8001/HelloWorld.html",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"HelloWorld.html"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
